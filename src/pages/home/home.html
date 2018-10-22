@@ -1,14 +1,31 @@
 <ion-header>
   <ion-navbar>
     <ion-title>
-      Ionic Blank
+      Mis discos
     </ion-title>
   </ion-navbar>
 </ion-header>
 
 <ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
+    <ion-item style  = "background-color : #4A6670">
+        <ion-col item-start>
+        <img (click) = "clicklmFoto()" src ="http://img.maniadb.com/images/album/177/177803_1_f.jpg">
+        </ion-col>
+        <h2 (click) = "clickbioluis()">Luis Miguel</h2>
+        <h3 (click) = "clicktracks1()" >20 años</h3>
+        <h4 style = "color:aliceblue">1990</h4>
+        <ion-row>
+        <ion-icon (click) = "clickresenas1()" ios="ios-star" md="md-star"></ion-icon>
+        <ion-icon ios="ios-star" md="md-star"></ion-icon>
+        <ion-icon ios="ios-star" md="md-star"></ion-icon>
+        <ion-icon ios="ios-star" md="md-star"></ion-icon>
+        <ion-icon ios="ios-star-half" md="md-star-half"></ion-icon>
+        </ion-row>
+        <ion-icon name="arrow-dropright-circle"></ion-icon>
+      </ion-item>
+      
+
+
+    
+      
 </ion-content>
