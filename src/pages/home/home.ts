@@ -4,6 +4,7 @@ import { LmPage } from '../lm/lm';
 import { BioluisPage } from '../bioluis/bioluis';
 import { Tracks1Page } from '../tracks1/tracks1';
 import { Resenas1Page } from '../resenas1/resenas1';
+import { BrunoPage } from '../bruno/bruno';
 
 @Component({
   selector: 'page-home',
@@ -14,6 +15,7 @@ export class HomePage {
   bioluis = BioluisPage
   tracks1 = Tracks1Page
   resenas1 = Resenas1Page
+  bruno = BrunoPage
 
   constructor(public navCtrl: NavController) {
 
@@ -33,6 +35,10 @@ export class HomePage {
           this.navCtrl.push(this.resenas1);
           
           }
+          clickbruno(){
+            this.navCtrl.push(this.bruno);
+            
+            }
 
       
     

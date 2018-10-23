@@ -10,6 +10,7 @@ import { LmPage } from '../pages/lm/lm';
 import { BioluisPage } from '../pages/bioluis/bioluis';
 import { Tracks1Page } from '../pages/tracks1/tracks1';
 import { Resenas1Page } from '../pages/resenas1/resenas1';
+import { BrunoPage } from '../pages/bruno/bruno';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { Resenas1Page } from '../pages/resenas1/resenas1';
     LmPage,
     BioluisPage,
     Tracks1Page,
-    Resenas1Page
+    Resenas1Page,
+    BrunoPage
   ],
   imports: [
     BrowserModule,
@@ -31,7 +33,8 @@ import { Resenas1Page } from '../pages/resenas1/resenas1';
     LmPage,
     BioluisPage,
     Tracks1Page,
-    Resenas1Page
+    Resenas1Page,
+    BrunoPage
   ],
   providers: [
     StatusBar,
