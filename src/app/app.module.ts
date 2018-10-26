@@ -11,6 +11,17 @@ import { BioluisPage } from '../pages/bioluis/bioluis';
 import { Tracks1Page } from '../pages/tracks1/tracks1';
 import { Resenas1Page } from '../pages/resenas1/resenas1';
 import { BrunoPage } from '../pages/bruno/bruno';
+import { SongsPage } from '../pages/songs/songs';
+import { BioBPage } from '../pages/bio-b/bio-b';
+import { ResenaBPage } from '../pages/resena-b/resena-b';
+import { MaroonPage } from '../pages/maroon/maroon';
+import { BioAdamPage } from '../pages/bio-adam/bio-adam';
+import { Tracks2Page } from '../pages/tracks2/tracks2';
+import { ShakiraPage } from '../pages/shakira/shakira';
+import { BioshakiraPage } from '../pages/bioshakira/bioshakira';
+import { ResenamaroonPage } from '../pages/resenamaroon/resenamaroon';
+import { Tracks3Page } from '../pages/tracks3/tracks3';
+import { ResenaparisPage } from '../pages/resenaparis/resenaparis';
 
 @NgModule({
   declarations: [
@@ -20,7 +31,18 @@ import { BrunoPage } from '../pages/bruno/bruno';
     BioluisPage,
     Tracks1Page,
     Resenas1Page,
-    BrunoPage
+    BrunoPage,
+    SongsPage,
+    BioBPage,
+    ResenaBPage,
+    MaroonPage,
+    BioAdamPage,
+    Tracks2Page,
+    ShakiraPage,
+    BioshakiraPage,
+    ResenamaroonPage,
+    Tracks3Page,
+    ResenaparisPage
   ],
   imports: [
     BrowserModule,
@@ -34,7 +56,18 @@ import { BrunoPage } from '../pages/bruno/bruno';
     BioluisPage,
     Tracks1Page,
     Resenas1Page,
-    BrunoPage
+    BrunoPage,
+    SongsPage,
+    BioBPage,
+    ResenaBPage,
+    MaroonPage,
+    BioAdamPage,
+    Tracks2Page,
+    ShakiraPage,
+    BioshakiraPage,
+    ResenamaroonPage,
+    Tracks3Page,
+    ResenaparisPage
   ],
   providers: [
     StatusBar,

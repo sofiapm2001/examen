@@ -14,8 +14,10 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
   templateUrl: 'songs.html',
 })
 export class SongsPage {
+  songsB = ['1. Grenade', '2. Just the way you are', '3. Our first time', 'Runaway baby', 'The lazy song', 'Marry you', 'Talking to the moon', 'Liquor store blues','Count on me', 'The other other side']            
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
+                            
   }
 
   ionViewDidLoad() {
